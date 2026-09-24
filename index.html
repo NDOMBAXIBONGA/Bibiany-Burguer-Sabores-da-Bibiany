@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bibiany Burguer & Sabores da Bibiany - O melhor fast food artesanal, combos, bolos de aniversário e doces da Província da Huíla (Lubango), Angola. Peça online via WhatsApp.">
+    <meta name="keywords" content="Bibiany Burguer, Sabores da Bibiany, Hamburguer Lubango, Fast Food Huila Angola, Bolos de Aniversario Lubango, Delivery Lubango, Kwanza">
+    <meta name="author" content="Bibiany">
+    
+    <title>Bibiany Burguer & Sabores da Bibiany | Delivery na Huíla (Lubango)</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- TOP NOTICE BAR (Angola & Huíla Local Context) -->
+    <div class="top-notice-bar">
+        <div class="container top-notice-inner">
+            <div class="top-badge-group">
+                <div class="angola-flag-pill">
+                    <span class="flag-icon">🇦🇴</span>
+                    <span>ANGOLA • PROVÍNCIA DA HUÍLA</span>
+                </div>
+                <div class="location-indicator">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <span>Atendimento: <strong>Lubango e Arredores</strong></span>
+                </div>
+            </div>
+            
+            <div class="top-badge-group">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span>Cozinha Aberta • Entregas Rápidas (30-45 min)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER & NAVIGATION -->
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="#inicio" class="brand-logo-combo">
+                <div class="brand-emblem">
+                    🔥
+                </div>
+                <div class="brand-texts">
+                    <span class="brand-title">BIBIANY <small style="font-size:0.65em; color:var(--primary-gold);">BURGUER</small></span>
+                    <span class="brand-subtitle">& Sabores da Bibiany</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#combos" class="nav-link">Combos Huíla</a></li>
+                    <li><a href="#cardapio" class="nav-link">Menu Digital</a></li>
+                    <li><a href="#entrega" class="nav-link">Taxas de Entrega</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn-header-cart" id="btnOpenCart" aria-label="Abrir Carrinho de Compras">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span>Carrinho</span>
+                    <span class="cart-counter-badge" id="cartCounterBadge">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (PROMPT 1: BANNER PRINCIPAL COM SPLIT BURGUER & BOLO) -->
+    <section class="hero-section" id="inicio">
+        <div class="hero-ambient-glow"></div>
+        <div class="container hero-layout">
+            
+            <!-- Hero Text Content -->
+            <div class="hero-text-content">
+                <div class="hero-badge-tag">
+                    <span>🔥</span> O Ponto Gastronômico Mais Amado do Lubango
+                </div>
+                
+                <h1 class="hero-title">
+                    Sabor que faz a <span class="highlight-burger">diferença</span> e <span class="highlight-sweets">faz feliz!</span>
+                </h1>
+                
+                <p class="hero-description">
+                    A fusão perfeita entre os melhores hambúrgueres artesanais na brasa e a doçura irresistível de bolos e salgados feitos com carinho. Direto para a sua casa ou Take Away na província da Huíla.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#cardapio" class="btn-primary">
+                        <span>Ver Menu Digital</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#combos" class="btn-secondary">
+                        <span>⭐ Ver Combos da Huíla</span>
+                    </a>
+                </div>
+
+                <div class="hero-stats-row">
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-num">100%</span>
+                        <span class="hero-stat-label">Artesanal & Fresco</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-num">Kz</span>
+                        <span class="hero-stat-label">Preços Acessíveis</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-num">30min</span>
+                        <span class="hero-stat-label">Média de Entrega</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual Showcase (Burger & Cake Duality) -->
+            <div class="hero-visual-showcase">
+                
+                <!-- Burger Card -->
+                <div class="showcase-card card-burger">
+                    <div class="showcase-floating-badge">🍔 Bibiany Burguer</div>
+                    <div class="showcase-img-wrap">
+                        <img src="assets/images/hero_burger.jpg" alt="Duplo Smash Cheeseburger Suculento com Batatas" />
+                    </div>
+                    <div class="showcase-info">
+                        <h3 class="showcase-name">Especial Bibiany</h3>
+                        <p class="showcase-subtitle">Hambúrguer duplo, cheddar derretido e bacon</p>
+                        <div class="showcase-footer">
+                            <span class="showcase-price">5.500 Kz</span>
+                            <button class="btn-quick-add" onclick="document.querySelector('#cardapio').scrollIntoView({behavior:'smooth'})" title="Ver no Cardápio">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cake Card -->
+                <div class="showcase-card card-cake">
+                    <div class="showcase-floating-badge">🎂 Sabores da Bibiany</div>
+                    <div class="showcase-img-wrap">
+                        <img src="assets/images/hero_cake.jpg" alt="Bolo de Aniversário Gourmet com Morangos e Ganache de Chocolate" />
+                    </div>
+                    <div class="showcase-info">
+                        <h3 class="showcase-name">Bolo de Aniversário</h3>
+                        <p class="showcase-subtitle">Massa artesanal, ganache e morangos frescos</p>
+                        <div class="showcase-footer">
+                            <span class="showcase-price">13.000 Kz</span>
+                            <button class="btn-quick-add" onclick="document.querySelector('#cardapio').scrollIntoView({behavior:'smooth'})" title="Ver no Cardápio">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating Delivery Bike Bubble -->
+                <div class="hero-floating-bubble">
+                    <span class="bike-icon">🛵</span>
+                    <div>
+                        <strong style="color: #fff; font-size: 0.85rem;">Delivery Ativo na Huíla</strong>
+                        <div style="font-size: 0.75rem; color: var(--text-gold);">Lubango • Take Away & Entrega</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BRAND SELECTOR SECTION -->
+    <section class="brand-selector-section">
+        <div class="container">
+            <div class="brand-toggle-grid">
+                <button class="brand-toggle-btn active" data-brand="all">
+                    <span class="brand-btn-icon">✨</span>
+                    <span>Ver Todo o Cardápio</span>
+                </button>
+                <button class="brand-toggle-btn" data-brand="burguer">
+                    <span class="brand-btn-icon">🍔</span>
+                    <span>Bibiany Burguer (Fast Food)</span>
+                </button>
+                <button class="brand-toggle-btn" data-brand="sabores">
+                    <span class="brand-btn-icon">🎂</span>
+                    <span>Sabores da Bibiany (Doces & Bolos)</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMBOS & LOCAL DELIVERY SECTION (PROMPT 3: COMBOS E FOCO NA HUÍLA) -->
+    <section class="combos-special-section" id="combos">
+        <div class="container">
+            <div class="section-header-wrap">
+                <span class="section-pill-tag">🔥 Mais Econômico & Completo</span>
+                <h2 class="section-main-title">Combos Especiais Bibiany</h2>
+                <p class="section-subtitle">
+                    Praticidade e economia para o seu almoço, jantar ou lanche em família no Lubango. Acompanha batata frita e refrigerante gelado!
+                </p>
+            </div>
+
+            <div class="combos-grid">
+                
+                <!-- Combo 1 -->
+                <div class="combo-card">
+                    <span class="combo-card-badge">Combo 1</span>
+                    <div class="combo-img-wrap">
+                        <img src="assets/images/combo_meal.jpg" alt="Combo 1 - Hambúrguer Simples + Batata + Refrigerante" />
+                    </div>
+                    <div class="combo-content">
+                        <h3 class="combo-title">Combo 1 Clássico</h3>
+                        <p class="combo-desc">Hambúrguer simples artesanal grelhado na brasa + Batata frita dourada e crocante + Refrigerante em lata geladinho.</p>
+                        
+                        <div class="combo-features">
+                            <span class="combo-feature-chip">🍟 Batata Crocante</span>
+                            <span class="combo-feature-chip">🥤 Refri Lata</span>
+                        </div>
+
+                        <div class="combo-footer">
+                            <div class="combo-price-wrap">
+                                <span class="combo-price-label">Preço Especial</span>
+                                <span class="combo-price-val">4.500 Kz</span>
+                            </div>
+                            <button class="btn-combo-order" data-combo-id="combo-1">
+                                <span>Pedir Agora</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo 2 -->
+                <div class="combo-card">
+                    <span class="combo-card-badge">Combo 2</span>
+                    <div class="combo-img-wrap">
+                        <img src="assets/images/combo_meal.jpg" alt="Combo 2 - Cheeseburguer + Batata + Refrigerante" />
+                    </div>
+                    <div class="combo-content">
+                        <h3 class="combo-title">Combo 2 Cheeseburguer</h3>
+                        <p class="combo-desc">Cheeseburguer com queijo derretido abundante e carne suculenta + Batata frita bem servida + Refrigerante em lata.</p>
+                        
+                        <div class="combo-features">
+                            <span class="combo-feature-chip">🧀 Queijo Cheddar</span>
+                            <span class="combo-feature-chip">🍟 Batata Inclusa</span>
+                            <span class="combo-feature-chip">🥤 Bebida Gelada</span>
+                        </div>
+
+                        <div class="combo-footer">
+                            <div class="combo-price-wrap">
+                                <span class="combo-price-label">Preço Especial</span>
+                                <span class="combo-price-val">5.500 Kz</span>
+                            </div>
+                            <button class="btn-combo-order" data-combo-id="combo-2">
+                                <span>Pedir Agora</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo 3 (Destaque Huíla) -->
+                <div class="combo-card featured-combo">
+                    <span class="combo-card-badge" style="background: var(--grad-gold); color: #000;">⭐ Campeão da Huíla</span>
+                    <div class="combo-img-wrap">
+                        <img src="assets/images/combo_meal.jpg" alt="Combo 3 - Duplo Burguer + Batata + Refrigerante" />
+                    </div>
+                    <div class="combo-content">
+                        <h3 class="combo-title">Combo 3 Duplo Burguer</h3>
+                        <p class="combo-desc">O gigante mais pedido do Lubango: Duplo Burguer com duas carnes artesanais e muito queijo + Batata frita crocante + Refrigerante gelado.</p>
+                        
+                        <div class="combo-features">
+                            <span class="combo-feature-chip">🥩 Carne Dupla</span>
+                            <span class="combo-feature-chip">🍟 Batata Frita</span>
+                            <span class="combo-feature-chip">🥤 Refri Lata</span>
+                        </div>
+
+                        <div class="combo-footer">
+                            <div class="combo-price-wrap">
+                                <span class="combo-price-label">Preço Especial</span>
+                                <span class="combo-price-val">7.000 Kz</span>
+                            </div>
+                            <button class="btn-combo-order" data-combo-id="combo-3">
+                                <span>Pedir Agora</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DIGITAL MENU & CATEGORIES GRID (PROMPT 2: MENU DIGITAL SHOWCASE) -->
+    <section class="digital-menu-section" id="cardapio">
+        <div class="container">
+            
+            <div class="section-header-wrap">
+                <span class="section-pill-tag">📖 Cardápio Interativo</span>
+                <h2 class="section-main-title">Menu Digital & Preços em Kwanza</h2>
+                <p class="section-subtitle">
+                    Hambúrgueres, combos, porções, frangos, wraps, bolos de festa e doces tradicionais. Preços atualizados em Kz.
+                </p>
+            </div>
+
+            <!-- Controls: Search & Category Pills -->
+            <div class="menu-controls-bar">
+                <div class="menu-search-wrapper">
+                    <svg class="menu-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="menuSearchInput" class="menu-search-input" placeholder="Buscar por hambúrguer, bolo, rissóis, batata..." />
+                </div>
+
+                <!-- Scrollable Category Pills -->
+                <div class="category-pills-scroll" id="categoryPills">
+                    <!-- Gerado dinamicamente pelo JavaScript -->
+                </div>
+            </div>
+
+            <!-- Products Grid with Neon Borders & Glow -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Cards de produtos gerados dinamicamente com glow neon -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DELIVERY / HUÍLA LOCAL CALCULATOR SECTION -->
+    <section class="delivery-info-section" id="entrega">
+        <div class="container">
+            <div class="delivery-box-wrapper">
+                
+                <div class="delivery-text-side">
+                    <span class="section-pill-tag">🛵 Logística Local</span>
+                    <h3>Entregas em Toda a Huíla</h3>
+                    <p>
+                        Atendemos tanto pedidos para entrega rápida na sua morada em Lubango quanto retirada imediata em nosso balcão (Take Away).
+                    </p>
+
+                    <ul class="delivery-feature-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span><strong>Take Away Grátis:</strong> Peça com antecedência e retire quentinho.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span><strong>Embalagens Térmicas:</strong> Seu hambúrguer chega crocante e seu bolo intacto.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span><strong>Pagamento Simples:</strong> Dinheiro, Multicaixa Express ou Transferência ao receber.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="delivery-calc-side">
+                    <h4 class="calc-title">
+                        <span>📍</span> Simular Taxa de Entrega por Bairro
+                    </h4>
+
+                    <div class="form-group">
+                        <label class="form-label" for="pageZoneSelect">Selecione seu Bairro ou Município:</label>
+                        <select id="pageZoneSelect" class="form-select">
+                            <!-- Preenchido via app.js -->
+                        </select>
+                    </div>
+
+                    <div class="delivery-fee-result-badge">
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Taxa Estimada:</div>
+                            <div class="fee-val" id="pageZoneFeeDisplay">500 Kz</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Tempo Estimado:</div>
+                            <strong style="color: #4ade80;" id="pageZoneTimeDisplay">25-35 min</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top-grid">
+                
+                <div class="footer-brand">
+                    <h4>BIBIANY BURGUER & SABORES</h4>
+                    <p>
+                        O sabor que une o melhor da gastronomia rápida e da confeitaria artesanal em Angola. Orgulho da Província da Huíla.
+                    </p>
+                    <div class="angola-flag-pill" style="display: inline-flex;">
+                        <span>🇦🇴</span> Feito com amor em Lubango, Angola
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Navegação</h5>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#combos">Combos Especiais</a></li>
+                        <li><a href="#cardapio">Menu Completo</a></li>
+                        <li><a href="#entrega">Áreas de Entrega</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Horário de Atendimento</h5>
+                    <ul style="color: var(--text-secondary); font-size: 0.9rem;">
+                        <li>Segunda a Sexta: 10h às 22h</li>
+                        <li>Sábado e Domingo: 11h às 23h</li>
+                        <li><strong style="color: var(--primary-gold);">Delivery & Take Away</strong></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom-copy">
+                &copy; 2026 Bibiany Burguer & Sabores da Bibiany. Todos os direitos reservados. Província da Huíla, Angola.
+            </div>
+        </div>
+    </footer>
+
+    <!-- CART OFF-CANVAS DRAWER -->
+    <div class="cart-drawer-backdrop" id="cartDrawerBackdrop">
+        <div class="cart-drawer" id="cartDrawer">
+            
+            <div class="cart-header">
+                <h3><span>🛒</span> Seu Pedido</h3>
+                <button class="btn-close-cart" id="btnCloseCart" aria-label="Fechar Carrinho">&times;</button>
+            </div>
+
+            <div class="cart-items-list" id="cartItemsList">
+                <!-- Itens adicionados aparecem aqui -->
+            </div>
+
+            <div class="cart-footer">
+                
+                <!-- Tipo de Pedido -->
+                <div class="order-type-switch">
+                    <button class="btn-order-type active" data-type="delivery">🛵 Delivery</button>
+                    <button class="btn-order-type" data-type="takeaway">🛍️ Take Away</button>
+                </div>
+
+                <!-- Seletor de Bairro no Carrinho -->
+                <div class="form-group" id="cartZoneSelectWrapper">
+                    <label class="form-label" style="font-size: 0.8rem;">Bairro no Lubango / Huíla:</label>
+                    <select id="cartZoneSelect" class="form-select" style="padding: 8px 12px; font-size: 0.85rem;">
+                        <!-- Preenchido via app.js -->
+                    </select>
+                </div>
+
+                <!-- Endereço do Cliente -->
+                <div class="form-group" id="cartAddressWrapper">
+                    <label class="form-label" style="font-size: 0.8rem;">Rua / Ponto de Referência:</label>
+                    <input type="text" id="customerAddressInput" class="form-input" placeholder="Ex: Rua Comandante Valódia, casa nº 4" style="padding: 8px 12px; font-size: 0.85rem;" />
+                </div>
+
+                <!-- Nome e Telefone do Cliente -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px;">
+                    <div>
+                        <label class="form-label" style="font-size: 0.75rem;">Seu Nome:</label>
+                        <input type="text" id="customerNameInput" class="form-input" placeholder="Seu nome" style="padding: 8px 10px; font-size: 0.82rem;" />
+                    </div>
+                    <div>
+                        <label class="form-label" style="font-size: 0.75rem;">Seu Telefone:</label>
+                        <input type="tel" id="customerPhoneInput" class="form-input" placeholder="9XX XXX XXX" style="padding: 8px 10px; font-size: 0.82rem;" />
+                    </div>
+                </div>
+
+                <!-- Forma de Pagamento -->
+                <div class="form-group" style="margin-bottom: 12px;">
+                    <label class="form-label" style="font-size: 0.75rem;">Forma de Pagamento:</label>
+                    <select id="paymentMethodSelect" class="form-select" style="padding: 8px 12px; font-size: 0.85rem;">
+                        <option value="Multicaixa Express">Multicaixa Express</option>
+                        <option value="Dinheiro / Numerário na Entrega">Dinheiro (Numerário)</option>
+                        <option value="TPA (Cartão Multicaixa)">TPA / Cartão Multicaixa</option>
+                        <option value="Transferência Bancária Imediata">Transferência Bancária</option>
+                    </select>
+                </div>
+
+                <!-- Observações -->
+                <div class="form-group" style="margin-bottom: 12px;">
+                    <label class="form-label" style="font-size: 0.75rem;">Observações do Pedido:</label>
+                    <input type="text" id="orderNotesInput" class="form-input" placeholder="Ex: sem cebola / escrever no bolo / troco para..." style="padding: 8px 10px; font-size: 0.82rem;" />
+                </div>
+
+                <!-- Resumo de Valores -->
+                <div class="cart-summary-lines">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="cartSubtotal">0 Kz</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Taxa de Entrega:</span>
+                        <span id="cartDeliveryFee">500 Kz</span>
+                    </div>
+                    <div class="summary-row total-row">
+                        <span>Total a Pagar:</span>
+                        <span class="total-val" id="cartTotal">0 Kz</span>
+                    </div>
+                </div>
+
+                <!-- Botão Oficial WhatsApp -->
+                <button class="btn-checkout-whatsapp" id="btnCheckoutWhatsApp">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.7c.969.53 1.77.815 2.791.815 3.179 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.767-5.768-5.767zm9.969 5.766c0 5.505-4.495 10-10 10-.001 0-.002 0-.003 0-1.748 0-3.411-.456-4.873-1.282l-5.124 1.344 1.37-5.006c-.902-1.523-1.37-3.238-1.37-5.056 0-5.505 4.495-10 10-10 5.505 0 10 4.495 10 10z"/>
+                    </svg>
+                    <span>Finalizar Pedido no WhatsApp</span>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ITEM DETAIL & CUSTOMIZATION MODAL -->
+    <div class="item-modal-backdrop" id="itemModalBackdrop">
+        <div class="item-modal-content">
+            <div class="modal-header-img">
+                <img id="modalItemImg" src="assets/images/hero_burger.jpg" alt="Item" />
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-item-title" id="modalItemTitle">Nome do Item</h3>
+                <p class="modal-item-desc" id="modalItemDesc">Descrição detalhada</p>
+                
+                <div class="form-group">
+                    <label class="form-label">Deseja alguma observação especial?</label>
+                    <input type="text" id="modalItemNotes" class="form-input" placeholder="Ex: sem picles, bem passado, ponto da carne..." />
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 18px;">
+                    <div>
+                        <span style="font-size: 0.8rem; color: var(--text-muted);">Preço:</span>
+                        <div style="font-size: 1.4rem; font-weight: 900; color: var(--primary-gold);" id="modalItemPrice">0 Kz</div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="btn-secondary" id="btnModalClose">Cancelar</button>
+                        <button class="btn-primary" id="btnModalConfirmAdd">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/244923000000?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20na%20Bibiany%20Burguer%20%26%20Sabores!" target="_blank" class="floating-whatsapp-btn" aria-label="Falar no WhatsApp" title="Falar com a Bibiany no WhatsApp">
+        <div class="whatsapp-pulse-ring"></div>
+        <svg viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.7c.969.53 1.77.815 2.791.815 3.179 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.767-5.768-5.767zm9.969 5.766c0 5.505-4.495 10-10 10-.001 0-.002 0-.003 0-1.748 0-3.411-.456-4.873-1.282l-5.124 1.344 1.37-5.006c-.902-1.523-1.37-3.238-1.37-5.056 0-5.505 4.495-10 10-10 5.505 0 10 4.495 10 10z"/>
+        </svg>
+    </a>
+
+    <!-- MOBILE STICKY BOTTOM BAR -->
+    <div class="mobile-bottom-bar" id="mobileBottomBar">
+        <div class="mobile-bottom-content">
+            <div class="mobile-cart-preview">
+                <span class="mobile-cart-label">Total do Pedido:</span>
+                <span class="mobile-cart-total" id="mobileCartTotal">0 Kz</span>
+            </div>
+            <button class="btn-mobile-open-cart" id="btnMobileOpenCart">
+                <span>🛒 Ver Carrinho</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
