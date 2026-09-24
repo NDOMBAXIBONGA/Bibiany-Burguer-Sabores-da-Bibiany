@@ -307,7 +307,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Mobile preview
         elements.mobileCartTotal.textContent = formatKz(total);
         if (totalItemsCount > 0) {
-            elements.mobileBottomBar.style.display = 'block';
+            elements.mobileBottomBar.classList.add('active');
+            document.body.classList.add('has-cart-bar');
+        } else {
+            elements.mobileBottomBar.classList.remove('active');
+            document.body.classList.remove('has-cart-bar');
         }
 
         // Cart items list render
@@ -357,11 +361,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showCartDrawer() {
         elements.cartBackdrop.classList.add('active');
+        document.body.classList.add('cart-open');
         document.body.style.overflow = 'hidden';
     }
 
     function hideCartDrawer() {
         elements.cartBackdrop.classList.remove('active');
+        document.body.classList.remove('cart-open');
         document.body.style.overflow = '';
     }
 
