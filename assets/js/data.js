@@ -37,7 +37,7 @@ const MENU_DATA = {
             name: "Combo 1",
             description: "Hambúrguer simples artesanal + Batata frita crocante + Refrigerante em lata gelado.",
             price: 4500,
-            image: "assets/images/combo_meal.jpg",
+            image: "assets/images/combo_1.jpg",
             badge: "Mais Popular",
             tag: "Economia Real"
         },
